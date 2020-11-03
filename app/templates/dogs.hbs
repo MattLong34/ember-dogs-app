@@ -1,1 +1,9 @@
 <p>I'm in the dogs page!</p>
+
+<ul>
+    {{#each model as |dog|}}
+    <li>
+        {{dog.name}}
+    </li>
+    {{/each}}
+</ul>
